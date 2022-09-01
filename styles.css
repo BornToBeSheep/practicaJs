@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/* PRODUCTOS */
+.product__container{
+}
+.product__content{
+    background-color:rgb(64, 63, 63);
+    color: gold;
+
+    width: 100vw;
+    margin: 1%;
+    padding: 1%;
+
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+.product__img img{
+    height: 10vh;
+}
