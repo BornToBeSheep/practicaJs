@@ -116,7 +116,7 @@ do{
     i = i + 1;
     var ventas = new venta(i);                      //Creo el perfil de un comprador
     var producto = new dispositivo(i);              //Creo un producto aleatorio
-    var listaCompradores = [ventas, producto];      //Creo una array donde junto el perfil con los prod comprados
+    var listaCompradores = [ventas, ];      //Creo una array donde junto el perfil con los prod comprados
     if (ventas.cant > 1 && ventas.cant + ventas.codigo <= 100) {
         let aux = i;
         for (i; i<=ventas.cant + aux; i++) { 
