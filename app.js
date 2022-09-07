@@ -45,7 +45,26 @@ function generarDatos (){
 }
 
 */
-
+/*
+function recorrerLista (listaCompradores){
+    let mismoDni = listaCompradores.ventas.dni[0];
+    let maximo = 0;
+    for (let i=0; i<= listaCompradores.length; i++){
+        let total = 0;
+        let aux = 1;
+        while (mismoDni == listaCompradores.ventas.dni[i]){
+            total = total + listaCompradores.producto.precio[aux];
+            if (aux <= listaCompradores.ventas.cant){
+                aux++;
+            }
+        }
+        if (total > maximo){
+            maximo = total;
+        }
+    }
+    return maximo
+}
+*/
 
 const dniMin = 10000000;
 const dniMax = 99999999;
@@ -70,27 +89,8 @@ class dispositivo {
     }
 }
 
-/*
-function recorrerLista (listaCompradores){
-    let mismoDni = listaCompradores.ventas.dni[0];
-    let maximo = 0;
-    for (let i=0; i<= listaCompradores.length; i++){
-        let total = 0;
-        let aux = 1;
-        while (mismoDni == listaCompradores.ventas.dni[i]){
-            total = total + listaCompradores.producto.precio[aux];
-            if (aux <= listaCompradores.ventas.cant){
-                aux++;
-            }
-        }
-        if (total > maximo){
-            maximo = total;
-        }
-    }
-    return maximo
-}
-*/
 
+/*
 function recorrerLista (listaCompradores){
     let mismoDni = listaCompradores.find(producto.dni);
     let maximo = 0;
@@ -109,7 +109,7 @@ function recorrerLista (listaCompradores){
     }
     return maximo
 }
-
+*/
 
 //Genero aleatoriamente una lista con informacion sobre 100 ventas hechas en el local
 do{
@@ -128,5 +128,6 @@ do{
 }while (ventas.codigo <= 100);
 
 //Recorro la lista creada en el modulo anterior para obtener datos de las ventas
-console.log(listaCompradores);
+/*console.log(listaCompradores);
 console.log(recorrerLista(listaCompradores));
+*/
