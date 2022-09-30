@@ -1,62 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Seguridad Electonica</title>
+    <title>Document</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <a><img src="recursos/logo-amarillo.png" alt="" href="#"></a>
+            <h1>Pagina de compras</h1>
+        </nav>
+    </header>
     <main>
-        <section>
-            <div>
-                
-            </div>
-            <div>
-                <h1>Seguridad Electronica</h1>
-                <img src="" alt="">
-            </div>
-        </section>
-        <section class="product__containter">
-            <div class="product__content">
-                <div class="product__header">
-                    <h2 class="product__title">Producto 1</h2>
-                    <span class="product__description">1</span>
-                </div>
-                <div class="product__img">
-                    <img src="recursos/D_NQ_NP_848023-MLA32749261838_112019-O.webp" alt="Descripcion producto 1">
-                </div>
-            </div>
-            <div class="product__content">
-                <div class="product__header">
-                    <h2 class="product__title">Producto 2</h2>
-                    <span class="product__description">2</span>
-                </div>
-                <div class="product__img">
-                    <img src="recursos/D_NQ_NP_848023-MLA32749261838_112019-O.webp" alt="Descripcion producto 2">
-                </div>
-            </div>
-            <div class="product__content">
-                <div class="product__header">
-                    <h2 class="product__title">Producto 3</h2>
-                    <span class="product__description">3</span>
-                </div>
-                <div class="product__img">
-                    <img src="recursos/D_NQ_NP_848023-MLA32749261838_112019-O.webp" alt="Descripcion producto 3">
-                </div>
-            </div>
-            <div class="product__content">
-                <div class="product__header">
-                    <h2 class="product__title">Producto 4</h2>
-                    <span class="product__description">4</span>
-                </div>
-                <div class="product__img">
-                    <img src="recursos/D_NQ_NP_848023-MLA32749261838_112019-O.webp" alt="Descripcion producto 4">
-                </div>
+        <section class="form" id="formulario">
+            <h1 class="form__title">Bienvenido, ingrese sus datos</h1>
+            <div class="form__container">
+                <input type="text" class="field" name="nombre" id="nombre">
+                <input type="text" class="field" name="telefono" id="telefono">
+                <input type="text" class="field" name="direccion" id="direccion">
+                <button class="boton" id="enviarInfo">enviar</button>
             </div>
         </section>
+        <section class ="contenedor" id="contenedor"></section>
+
+        <section class="contenedor" id="carrito"></section>
+
+        <section id="formasDePago"></section>
     </main>
-    <script src="./app.js"></script>
 </body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="./app.js"></script>
 </html>
