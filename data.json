@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "nombre": "Taza magica",
+        "precio": 200,
+        "img": "/recursos/tazas.jpg",
+        "desc": "Tazas magicas. Estas tazas solo mostraran su diseño si se aumenta su temperatura"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera estampada",
+        "precio": 500,
+        "img": "./recursos/remera.jpg",
+        "desc": "Remera estampada. Personalizala con el diseño que mas te guste"
+    },
+    {
+        "id": 3,
+        "nombre": "Mate",
+        "precio": 400,
+        "img": "recursos/mate.jpg",
+        "desc": "Personaliza tu mate con el diseño que quieras"
+    },
+    {
+        "id": 4,
+        "nombre": "Taza magica",
+        "precio": 200,
+        "img": "recursos/tazas.jpg",
+        "desc": "Tazas magicas. Estas tazas solo mostraran su diseño si se aumenta su temperatura"
+    }
+]
